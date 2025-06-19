@@ -207,6 +207,42 @@ Sono benvenuti contributi! Se vuoi migliorare lo script, aggiungere nuove pulizi
 ### Licenza
 Questo progetto è rilasciato sotto licenza MIT. Consulta il file `LICENSE` per maggiori dettagli.
 
+## 中文 (Chinese Simplified)
+
+### 描述
+本项目包含一个高级且交互式的批处理脚本，用于在Windows系统上安全高效地清理临时文件和常见缓存。设计简便易用，兼容多种Windows版本，适合希望保持系统清洁且不失控的用户。
+
+### 主要功能
+- 兼容Windows 7、8、8.1、10及11。  
+- 清理系统和用户临时文件夹。  
+- 删除旧日志、NuGet缓存、浏览器缓存（Chrome，Firefox）及微软商店缓存。  
+- 使用DISM工具执行高级清理以优化系统映像。  
+- 每次操作前请求确认，避免误删。  
+- 生成包含结果和可能错误的详细报告。  
+- 完全注释，便于理解和修改。
+
+### 使用方法
+1. 下载或克隆本仓库。  
+2. 以管理员身份运行 `LimpiezaAvanzadaInteractiva.bat` 文件（右键 > 以管理员身份运行）。  
+3. 按屏幕提示选择要执行的清理操作。  
+4. 完成后，查看保存在 `Documents\LimpiezaLogs` 文件夹中的报告。
+
+### 要求
+- 具有删除系统文件的管理员权限。  
+- Windows系统，含cmd和标准工具（无需额外软件）。
+
+### 贡献
+欢迎贡献！如果你想改进脚本、添加新的清理项或适配其他Windows版本，请随时提交pull requests。
+
+### 许可证
+本项目采用MIT许可证。详情请见 `LICENSE` 文件。
+
+### 联系方式
+如有问题或建议，请在仓库提交issue或直接联系我。
+
+---
+
+
 ### Contatto
 Per domande o suggerimenti, puoi aprire una issue in questo repository o contattarmi direttamente.
 
